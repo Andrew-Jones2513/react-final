@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+#allPlayers, #searchPlayers, #SelectSearch {
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px rgb(69, 69, 69);
+  border: thin solid rgb(69, 69, 69);
+  padding: 2em;
+  background-color: black;
+}
+
+#searchPlayers, #SelectSearch {
+  color: rgb(253, 55, 55);
+}
+
+#heading {
+  color: rgb(253, 55, 55);;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 4px 1px darkred;
+}
+
+#page {
+  margin: 0 8%;
+}
+
+#SearchHead {
+  max-width: 30%;
+  min-height: 15%;
+}
+
+#SearchTypes {
+  max-width: 65%;
+  min-height: 40%;
+}

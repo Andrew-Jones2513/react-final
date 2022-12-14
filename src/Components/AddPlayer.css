@@ -1,0 +1,13 @@
+#AddPlayer {
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px rgb(69, 69, 69);
+  background-color: black;
+  border: thin solid rgb(69, 69, 69);
+  padding: 5em;
+  color: rgb(253, 55, 55);
+}
+
+#AddHeading {
+  max-width: 90%;
+  min-height: 60%;
+}
