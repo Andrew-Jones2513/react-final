@@ -147,7 +147,7 @@ function App() {
     firstName: "Sidney",
     lastName: "Crosby",
     team: "penguins",
-    image: 'images/Sid.png'
+    image: 'images/Id.png'
   }, {
     id:nanoid(),
     number: 4,
@@ -196,7 +196,7 @@ function App() {
             
             {/* Search Bar for Players */}
             <div className='row' id='searchPlayers'>
-              <h3 className='text-center mb-3'><img src="images/player-search.png" alt="Player Search" id="SearchHead" /></h3>
+              <h3 className='text-center mb-3'><img src="images/player-search.PNG" alt="Player Search" id="SearchHead" /></h3>
               {/* Normal Display of Players */}
               {!nameSearch && 
               <div className='col-md-3'>
@@ -242,7 +242,7 @@ function App() {
           {/* Sets Search Types */}
           <div className='col-md-3 mt-1'>
             <div className="row ms-2 mt-4" id="SelectSearch">
-            <h3 className='text-center mb-3'><img src="images/search-by.png" alt="Search By" id="SearchTypes" /></h3>
+            <h3 className='text-center mb-3'><img src="images/search-by.PNG" alt="Search By" id="SearchTypes" /></h3>
               <div className="col-md-12">
               <input type="checkbox" id="playerName" name="playerName" value="Name" onChange={(evt) => searchState(evt.currentTarget.value)} />
               <label className='h5 ms-1 me-4' for="playerName">Name</label>

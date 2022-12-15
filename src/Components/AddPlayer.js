@@ -27,7 +27,7 @@ function AddPlayer(props){
   // Writing the adding of players
   return(
     <div className="row mt-4 ms-2" id="AddPlayer">
-      <h3 className='text-center mb-2'><img src="images/add-player.png" alt="Add Player" id="AddHeading" /></h3>
+      <h3 className='text-center mb-2'><img src="images/add-player.PNG" alt="Add Player" id="AddHeading" /></h3>
       <div className="col-md-12">
         <label htmlFor="txtFirstName" className="form-label h5 mt-3 mb-1">First Name</label>
         <input type="text" id="txtFirstName" placeholder="First Name" className="form-control" onChange={(evt) => setFirstName(evt.currentTarget.value)} value={firstName} />
