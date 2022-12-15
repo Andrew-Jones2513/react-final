@@ -147,7 +147,7 @@ function App() {
     firstName: "Sidney",
     lastName: "Crosby",
     team: "penguins",
-    image: 'images/Id.png'
+    image: 'images/SId.png'
   }, {
     id:nanoid(),
     number: 4,
